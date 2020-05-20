@@ -1,0 +1,111 @@
+.containerr{
+	width: 200px;
+	margin: 50px auto;
+	font-family: sans-serif;
+}
+
+.label{
+	display: block;
+	max-width: 200px;
+    margin: 0 auto 15px;
+	text-align: center;
+    word-wrap: break-word;
+	color: #1a4756;
+}
+
+.hidden, #uploadImg:not(.hidden) + .label{
+	display: none;
+}
+
+#file{
+	display: none;
+  	margin: 0 auto;
+}
+
+#upload{
+	display: block;
+	padding: 10px 25px;
+	border: 0;
+	margin: 0 auto;
+	font-size: 15px;
+	letter-spacing: 0.05em;
+	cursor: pointer;
+	background: #216e69;
+	color: #fff;
+	outline: none;
+    transition: .3s ease-in-out;
+}
+#upload:hover, #upload:focus{
+		background: #1AA39A;
+	}
+	#upload:active{
+		background: #13D4C8;
+		transition: .1s ease-in-out;
+	}
+
+
+.img{
+	display: block;
+    margin: 0 auto 15px;
+    width: 200px;
+}
+ 
+.left-scrolling, .right-scrolling{
+    height:70vh;
+    overflow-y: scroll;
+}
+.expand-collapse {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.expand-collapse ul {
+  background-color: transparent;
+  padding: 10px;
+  margin: 0;
+}
+.expand-collapse div {
+  padding: 0;
+  margin: -2px 0 0 0;
+}
+.expand-collapse h3 {
+  background-color: transparent;
+  cursor:  pointer;
+  padding: 15px;
+  margin: 0 0 1px;
+  font-size:15px;
+}
+.expand-collapse h3:hover{
+    background-color:#EAEDF1;
+}
+
+
+th{
+    font-size: 15px !important;
+}
+.left-scrolling form, .right-scrolling table{
+    padding: 30px !important;
+}
+
+ .title:placeholder-shown{
+   border-color:red;
+ }
+ .title{
+   font-size:30px;
+   padding:15px;
+   font-weight:bold;
+}
+.savefile{
+	float: right;
+	margin-top: -0px;
+
+}
+.imgp{
+	display: none;
+}
+.modall{
+	width: 80vw;
+}
+
+.mypicker{
+	display: flex !important;
+}
